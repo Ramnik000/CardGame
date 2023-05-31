@@ -4,6 +4,9 @@
  */
 package card;
 
+//Ramnik kaur Gill
+//Student number-991708912
+
 /**
  * A class that fills a magic hand of 7 cards with random Card Objects
  * and then asks the user to pick a card and searches the array of cards
