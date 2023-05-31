@@ -31,20 +31,11 @@ public class CardTrick {
         luckyCard.setSuit("Heart");
         luckyCard.setValue(9);
        
-        Scanner scan= new Scanner(System.in);
-        System.out.println("Enter a Card suit(Hearts,Diamonds,Spades,Clubs)");
-        String suit = scan.nextLine();
         
-        System.out.println("Enter a Card value from 1-13");
-        int value= scan.nextInt();
-        
-        Card userCard= new Card();
-        userCard.setSuit(suit);
-        userCard.setValue(value);
         
         boolean search = false;
         for(int i=0;i<magicHand.length;i++){
-            if(userCard.equals(magicHand[i])){
+            if(luckyCard.equals(magicHand[i])){
                 search = true;
                 break;
             }
