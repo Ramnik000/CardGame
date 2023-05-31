@@ -27,7 +27,10 @@ public class CardTrick {
             c.setSuit(Card.SUITS[(int)(Math.random()*4)]);
             magicHand[i] = c;
         }
-        
+        Card luckyCard= new Card();
+        luckyCard.setSuit("Heart");
+        luckyCard.setValue(9);
+       
         Scanner scan= new Scanner(System.in);
         System.out.println("Enter a Card suit(Hearts,Diamonds,Spades,Clubs)");
         String suit = scan.nextLine();
